@@ -1,0 +1,114 @@
+//display
+.dn{display: none;}
+.db{display: block;}
+.dib{display: inline-block;}
+.di{display: inline;}
+
+
+
+//float
+.fll{float: left;}
+.flr{float: right;}
+
+
+
+//position
+.posr{position: relative;}
+.posa{position: absolute;}
+.posf{position: fixed;}
+
+.top{    top: 0;}
+.bottom{ bottom: 0;}
+.left{   left: 0;}
+.right{  right: 0;}
+
+.z999{z-index: 999;}
+
+
+
+//margin
+.m{margin: @vgutter @hgutter;}
+.auto{margin: 0 auto;}
+
+.mt{margin-top: @vgutter;}
+.mb{margin-left: @hgutter;}
+.ml{margin-bottom: @hgutter;}
+.mr{margin-right: @hgutter;}
+
+.mtb{.mt;.mb;}
+.mlr{.ml;.mr;}
+
+.mts{margin-top: @vgutter/2;}
+.mbs{margin-left: @hgutter/2;}
+.mls{margin-bottom: @hgutter/2;}
+.mrs{margin-right: @hgutter/2;}
+
+.mtx{margin-top: @vgutter*2;}
+.mbx{margin-left: @hgutter*2;}
+.mlx{margin-bottom: @hgutter*2;}
+.mrx{margin-right: @hgutter*2;}
+
+.mtxx{margin-top: @vgutter*3;}
+
+
+
+//border
+.bdt{border-width: 1px 0 0 0;}
+.bdb{border-width: 0 0 1px 0;}
+.bdl{border-width: 0 0 0 1px;}
+.bdr{border-width: 0 1px 0 0;}
+
+.bdtb{.bdt;.bdb;}
+.bdlr{.bdl;.bdr;}
+
+
+
+//radius
+.bdrs{ border-radius: @radius;}
+
+
+
+//overflow
+.ovh{overflow: hidden;}
+
+
+
+//padding
+.p{padding: @vgutter @hgutter;}
+
+.pt{padding-top: @vgutter;}
+.pb{padding-left: @hgutter;}
+.pl{padding-bottom: @hgutter;}
+.pr{padding-right: @hgutter;}
+
+.ptb{.pt;.pb;}
+.plr{.pl;.pr;}
+
+.pts{padding-top: @vgutter/2;}
+.pbs{padding-left: @hgutter/2;}
+.pls{padding-bottom: @hgutter/2;}
+.prs{padding-right: @hgutter/2;}
+
+.ptx{padding-top: @vgutter*2;}
+.pbx{padding-left: @hgutter*2;}
+.plx{padding-bottom: @hgutter*2;}
+.prx{padding-right: @hgutter*2;}
+
+
+
+//width
+.mw100p{max-width: 100%;}
+
+
+
+//clearfix
+.clearfix{
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+}
