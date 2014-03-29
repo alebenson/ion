@@ -1,0 +1,49 @@
+//font-size
+//large
+.fzlx{ font-size: @basefontsize * 2.5;   }
+.fzl{  font-size: @basefontsize * 2;     }
+.fzls{ font-size: @basefontsize * 1.5;   }
+
+
+
+//medium
+.fzmx{ font-size: @basefontsize * 1.25;  }
+.fzm{  font-size: @basefontsize * 1.125; }
+.fzms{ /*font-size: @basefontsize * 1;*/     }
+
+
+
+//small
+.fzsx{ font-size: @basefontsize * 0.875; }
+.fzs{  font-size: @basefontsize * 0.75;  }
+.fzss{ font-size: @basefontsize * 0.625; }
+
+
+
+//line-height
+.lh{ /*line-height: @baselineheight;*/ }
+
+.lhs{line-height: @baselineheight/2;}
+.lhx{line-height: @baselineheight * 2;}
+
+
+
+//variants
+.fwb{font-weight: bold;}
+.fsi{font-style: italic;}
+
+
+
+//decoration
+.tdu, .tdu-h{text-decoration: underline;}
+.tdn{text-decoration: none;}
+
+
+
+//align
+.tar{text-align: right;}
+.taj{text-align: justify;}
+.tac{text-align: center;}
+
+.vam{vertical-align: middle;}
+.vat{vertical-align: top;}
