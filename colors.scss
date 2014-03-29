@@ -1,0 +1,38 @@
+//color
+.cbody,  .cbody-hover:hover{  color: @colorbody; }
+.ctext,  .ctext-hover:hover{  color: @colortext; }
+.ctitle, .ctitle-hover:hover{ color: @colortitle; }
+.clink,  .clink-hover:hover{  color: @colorlink; }
+
+.cbody,  .ctext, .ctitle, .clink{
+	 .transition(color .2s ease-in);
+}
+
+
+
+//border
+.bdbody{  border: 1px solid @colorbody; }
+.bdtext{  border: 1px solid @colortext; }
+.bdtitle{ border: 1px solid @colortitle; }
+.bdlink{  border: 1px solid @colorlink; }
+
+
+
+//background
+.bgbody,  .bgbody-hover:hover{  background-color: @colorbody; }
+.bgtext,  .bgtext-hover:hover{  background-color: @colortext; }
+.bgtitle, .bgtitle-hover:hover{ background-color: @colortitle; }
+.bglink,  .bglink-hover:hover{  background-color: @colorlink; }
+
+.bgbody,  .bgtext, .bgtitle, .bglink{
+	  .transition(background-color .2s ease-in);
+}
+
+
+
+//opacity
+.op0{
+	.opacity(0);
+	 .transition(opacity 0.5s ease-in-out);
+}
+.op1{.opacity(1);}
