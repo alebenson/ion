@@ -1,0 +1,37 @@
+// from 0
+.media_query_width{
+	width: 300px;
+}
+
+.g1  { width: 6.5%;  }
+.g2  { width: 15.0%; }
+.g3  { width: 23.5%; }
+.g4  { width: 32.0%; }
+.g5  { width: 40.5%; }
+.g6  { width: 49.0%; }
+.g7  { width: 57.5%; }
+.g8  { width: 66.0%; }
+.g9  { width: 74.5%; }
+.g10 { width: 83.0%; }
+.g11 { width: 91.5%; }
+.g12 { width: 100%;  }
+
+
+
+/*INAROW trick.
+Use it when N is unknown.
+Needs to be exclusive. Can't be a overriding.
+*/
+
+/* to 320px ----------- */
+@media only screen
+and (min-width: 0em)
+and (max-width: 40.563em) {
+	.inarow2 > *:nth-child(2n+1),
+	.inarow3 > *:nth-child(3n+1),
+	.inarow4 > *:nth-child(4n+1),
+	.inarow6 > *:nth-child(6n+1){
+		margin-left: 0 !important;
+		clear: left;
+	}
+}
