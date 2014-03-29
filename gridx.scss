@@ -1,0 +1,58 @@
+// from 650
+@media only screen
+and (min-width : 40.625em) {
+
+	.media_query_width {
+		width: 620px;
+	}
+
+	.x-g1  { width: 6.5%;  }
+	.x-g2  { width: 15.0%; }
+	.x-g3  { width: 23.5%; }
+	.x-g4  { width: 32.0%; }
+	.x-g5  { width: 40.5%; }
+	.x-g6  { width: 49.0%; }
+	.x-g7  { width: 57.5%; }
+	.x-g8  { width: 66.0%; }
+	.x-g9  { width: 74.5%; }
+	.x-g10 { width: 83.0%; }
+	.x-g11 { width: 91.5%; }
+	.x-g12 { width: 100%;  }
+
+
+	//display
+	.x-db{display: block;}
+
+	//text-align
+	.x-tac{text-align: center;}
+
+	//float
+	.x-fll{float: left;}
+	.x-flr{float: right;}
+
+	//margin
+	.x-auto{margin: 0 auto;}
+
+	//overflow
+	.x-ovh{overflow: hidden;}
+}
+
+
+
+/* N things in a row.
+Use it when N is unknown.
+Needs to be exclusive. Can't be a overriding.
+*/
+
+// from 321 to 650
+@media only screen
+and (min-width: 40.625em)
+and (max-width: 63.938em) {
+	.x-inarow2 > *:nth-child(2n+1),
+	.x-inarow3 > *:nth-child(3n+1),
+	.x-inarow4 > *:nth-child(4n+1),
+	.x-inarow6 > *:nth-child(6n+1){
+		margin-left: 0 !important;
+		clear: left;
+	}
+}
