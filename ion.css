@@ -16,15 +16,6 @@
 .clink-hover:hover {
   color: #ff0066;
 }
-.cbody,
-.ctext,
-.ctitle,
-.clink {
-  -webkit-transition: color 0.2s ease-in;
-  -moz-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
-}
 .bdbody {
   border: 1px solid white;
 }
@@ -53,26 +44,19 @@
 .bglink-hover:hover {
   background-color: #ff0066;
 }
-.bgbody,
-.bgtext,
-.bgtitle,
-.bglink {
-  -webkit-transition: background-color 0.2s ease-in;
-  -moz-transition: background-color 0.2s ease-in;
-  -o-transition: background-color 0.2s ease-in;
-  transition: background-color 0.2s ease-in;
-}
 .op0 {
   filter: alpha(opacity=0);
   opacity: 0;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
 }
 .op1 {
   filter: alpha(opacity=100);
   opacity: 1;
+}
+.trs {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -88,17 +72,9 @@ input,
 select,
 textarea {
   color: #333333;
-  -webkit-transition: color 0.2s ease-in;
-  -moz-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
 }
 a {
   color: #ff0066;
-  -webkit-transition: color 0.2s ease-in;
-  -moz-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
   text-decoration: none;
 }
 h1,
