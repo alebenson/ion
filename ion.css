@@ -242,30 +242,30 @@ select {
   margin-top: 24px;
 }
 .mb {
-  margin-left: 2%;
+  margin-bottom: 24px;
 }
 .ml {
-  margin-bottom: 2%;
+  margin-left: 2%;
 }
 .mr {
   margin-right: 2%;
 }
 .mtb {
   margin-top: 24px;
-  margin-left: 2%;
+  margin-bottom: 24px;
 }
 .mlr {
-  margin-bottom: 2%;
+  margin-left: 2%;
   margin-right: 2%;
 }
 .mts {
   margin-top: 12px;
 }
 .mbs {
-  margin-left: 1%;
+  margin-bottom: 12px;
 }
 .mls {
-  margin-bottom: 1%;
+  margin-left: 1%;
 }
 .mrs {
   margin-right: 1%;
@@ -274,10 +274,10 @@ select {
   margin-top: 48px;
 }
 .mbx {
-  margin-left: 4%;
+  margin-bottom: 48px;
 }
 .mlx {
-  margin-bottom: 4%;
+  margin-left: 4%;
 }
 .mrx {
   margin-right: 4%;
@@ -318,30 +318,30 @@ select {
   padding-top: 24px;
 }
 .pb {
-  padding-left: 2%;
+  padding-bottom: 24px;
 }
 .pl {
-  padding-bottom: 2%;
+  padding-left: 2%;
 }
 .pr {
   padding-right: 2%;
 }
 .ptb {
   padding-top: 24px;
-  padding-left: 2%;
+  padding-bottom: 24px;
 }
 .plr {
-  padding-bottom: 2%;
+  padding-left: 2%;
   padding-right: 2%;
 }
 .pts {
   padding-top: 12px;
 }
 .pbs {
-  padding-left: 1%;
+  padding-bottom: 12px;
 }
 .pls {
-  padding-bottom: 1%;
+  padding-left: 1%;
 }
 .prs {
   padding-right: 1%;
@@ -350,10 +350,10 @@ select {
   padding-top: 48px;
 }
 .pbx {
-  padding-left: 4%;
+  padding-bottom: 48px;
 }
 .plx {
-  padding-bottom: 4%;
+  padding-left: 4%;
 }
 .prx {
   padding-right: 4%;
@@ -369,8 +369,8 @@ select {
 .clearfix:after {
   clear: both;
 }
-.media_query_width {
-  width: 300px;
+.mwg {
+  max-width: 100%;
 }
 .g1 {
   width: 6.5%;
@@ -424,9 +424,9 @@ Needs to be exclusive. Can't be a overriding.
     clear: left;
   }
 }
-@media only screen and (min-width: 20em) {
-  .media_query_width {
-    width: 620px;
+@media only screen and (min-width: 40em) {
+  .mwg {
+    max-width: 100%;
   }
   .x-g1 {
     width: 6.5%;
@@ -497,9 +497,9 @@ Needs to be exclusive. Can't be a overriding.
     clear: left;
   }
 }
-@media only screen and (min-width: 40.688em) {
-  .media_query_width {
-    width: 940px;
+@media only screen and (min-width: 64em) {
+  .mwg {
+    max-width: 940px;
   }
   .xx-g1 {
     width: 6.5%;
