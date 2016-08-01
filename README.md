@@ -1,6 +1,6 @@
 irreverent css
 =======
-#### Responsive CSS framework based on Atomic Styling
+#### An irreverent way of writing css and still making stylesheets maintainable, consistent and predictable.
 
 [Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/) is a methodology for creating design systems.<br>
 [Atomic Styling](http://coding.smashingmagazine.com/2013/10/21/challenging-css-best-practices-atomic-approach/) is bassed on mapping classes to a single style.<br>
